@@ -1,0 +1,151 @@
+/*GENERAL*/
+
+body {
+	font-family: Tahoma, "Geneva", sans-serif;
+	width: 100%;
+	margin: 2.5% 2.5%;
+}
+
+/*CARD FRAME*/
+
+.card {
+	display: inline-block;
+	position: relative;
+	max-width: 30%;
+	min-width: 30%;
+	margin: 1% 1%;
+	vertical-align: top;
+	word-wrap: break-word;
+	border: solid 1px lightblue;
+}
+
+/*SECTION: PRODUCT*/
+
+.title {
+	/*padding: 5px 0 15px 0;*/
+	border-bottom: dotted 1px lightgray;
+	text-align: center;
+}
+
+img {
+	display: block;
+	padding: 5px 0 15px 0;
+	margin: auto;
+	max-width: 100%;
+}
+
+.description {
+	text-align: justify;
+	font-size: .8em;
+	font-weight: 500;
+	margin: auto 5px;
+}
+
+.availability {
+	color: yellow;
+	background-color: grey;
+	font-weight: 400;
+	padding: 5px 5px;
+	/*margin: auto;*/
+}
+
+/*SECTION: SPECIFICATIONS*/
+
+ul li {
+	margin-left: -20px;
+}
+
+li {
+	font-weight: bolder;
+	list-style-type: none;
+}
+
+footer {
+	font-size: .6em;
+	font-weight: 500;
+	margin: -12px 0 5px 0;
+}
+
+.specs>header>h3 {
+	margin: 15px 50px -15px 10px;
+	max-width: 100%
+}
+
+/*SECTION: PRICING*/
+
+.pricing {
+	margin: -18px auto -18px auto;
+}
+
+.pricing>header>h3 {
+	margin: 15px 50px -15px 10px;
+	max-width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********flexbox********************
+
+
+.card {
+	padding: 10px;
+	max-width: 30%;
+	border: solid 1px lightblue;
+}
+
+
+
+
+.card {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	
+}
+.title {
+	flex-grow: 1;
+	flex: 1
+	border-bottom: dotted 1px lightgray;	
+}
+
+img {
+	flex: 1 auto;
+	margin: auto;
+	margin: auto;
+}
+
+*************************
